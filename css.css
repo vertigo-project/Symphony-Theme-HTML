@@ -1,0 +1,209 @@
+body
+{
+    width:100%;
+    color:#fdfdfd;
+    margin-left:auto;
+    margin-right:auto;
+    cursor:default;
+    background: url('bg.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    font-family:"Raleway";
+} 
+div#bd
+{
+    position:absolute;
+    right:0;
+    left:0;
+    margin-right:auto;
+    margin-left:auto;
+    width:900px;
+    height:600px;
+}
+header
+{
+    position:absolute;
+    width:100%;
+    height:125px;
+    right:0;
+    left:0;
+    margin-right:auto;
+    margin-left:auto;
+    box-shadow: 0 0 10px 1px black;
+}
+div#hd
+{
+    width:100%;
+    height:100%;
+    background: linear-gradient(rgba(25,25,25,0.6),rgba(22,22,22,1.0));
+}
+div#logotype
+{
+    position:absolute;
+    width:350px;
+    height:125px;
+    left:0;
+    background:url('logotype.png');
+    background-size:cover;
+}
+nav
+{
+    width:540px;
+    height:50px;
+    line-height:50px;
+    position:absolute;
+    bottom:0;
+    right:0;
+    margin-right:-20px;
+    font-family:Arial;
+}
+article
+{
+    position:absolute;
+    margin-top:120px;
+    width:100%;
+    height:462px;
+    background: url('bgart.jpg') no-repeat; 
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 0 0 10px 1px black;
+}
+div#imginfo
+{
+    padding:12px;
+    width:140px;
+    background: linear-gradient(to right, rgba(255,255,255,0.9),rgba(255,255,255,0.2));
+    color:#252525;
+    font-size:13px;
+    overflow:hidden;
+}
+div#showinfo
+{
+    position:absolute;
+    background:rgba(0,0,0,0.6);
+    height:280px;
+    width:540px;
+    margin-top:-24px;
+    padding-top:10px;
+    padding-right:20px;
+    padding-left:20px;
+    padding-bottom:10px;
+    right:0;
+    color:white;
+    text-align:center;
+    overflow-y: auto;
+    display:none;
+    box-shadow: 0 0 4px 1px black;
+}
+div#info
+{
+    font-size:90%;
+}
+div#upfot
+{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:95px;
+    background: rgba(40,40,40,0.7);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 0 0 8px 1px black;
+}
+div#desc
+{
+    width:340px;
+    height:65px;
+    font-size:13px;
+    padding-left:12px;
+    padding-right:22px;
+    padding-top:5px;
+    margin-top:12px;
+    border-right:1px solid white;
+    float:left;
+}
+div#desc2
+{
+    width:480px;
+    height:65px;
+    font-size:13px;
+    padding-left:12px;
+    padding-right:22px;
+    padding-top:5px;
+    margin-top:5px;
+    float:right;
+}
+div#desc2 a
+{
+    color: white;
+}
+div#desc2 a:hover
+{
+    text-decoration:underline;
+}
+span#ct
+{
+    font-size:17px;
+    font-weight:bold;
+    line-height:30px;
+}
+div#fb
+{
+    width:32px;
+    height:32px;
+    background: url('fb.png');
+    float:right;
+    margin-top:-6px;
+}
+footer
+{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:15px;
+    line-height:15px;
+    text-align:right;
+    color:#252525;
+    font-size:11px;
+    font-weight:bold;
+}
+div#author
+{
+    margin-right:10px;
+}
+ul, ul li {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding-right:22px;
+}
+
+ul li {
+    float: right;
+}
+li a
+{
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    text-decoration:none;
+    text-shadow: 0 0 1px rgba(0,0,0,1.0);
+}
+a
+{
+    color:orange;
+    text-decoration:none;
+}
+/* Let's get this party started */
+div#showinfo::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+div#showinfo::-webkit-scrollbar-track {
+    background: rgba(200, 200, 200, 0.2);
+}
+ 
+/* Handle */
+div#showinfo::-webkit-scrollbar-thumb {
+    background: rgba(10,10,10,0.7); 
+}
